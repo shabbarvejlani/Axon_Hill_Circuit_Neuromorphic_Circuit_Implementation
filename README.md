@@ -130,6 +130,6 @@ RR7 net12 gnd! 10meg $[RP]
 - [Synopsys](https://www.synopsys.com/)
 
 ## Author
-Shabbar Vejlani
+Shabbar Vejlani, Digital Verification Engineer, Bangalore.
 
 
