@@ -121,8 +121,8 @@ RR7 net12 gnd! 10meg $[RP]
 
 
 ## References
-[1]	Chapter 12, “Axons” from text “Analog VLSI and Neural Systems”, Mead Carver.
-[2]	Giacomo Indiveri et al “Neuromorphic silicon neuron circuits”, Fronetiers in Neuroscience Online Journal.
+1. Chapter 12, “Axons” from text “Analog VLSI and Neural Systems”, Mead Carver.
+2. Giacomo Indiveri et al “Neuromorphic silicon neuron circuits”, Fronetiers in Neuroscience Online Journal.
 
 ## Acknowledgements
 - [Indian Institute Of Technology (IIT), Hyderabad](https://iith.ac.in/)
