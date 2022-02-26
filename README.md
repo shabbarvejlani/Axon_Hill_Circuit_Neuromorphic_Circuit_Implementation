@@ -24,6 +24,7 @@ The Axon Hillock is a portion of the neuron which mimics the Spike/Event Generat
 2. A high gain non-inverting amplifier in positive feedback configuration
 3. An auxiliary circuit which helps in the pulse generation whenever the integrator reaches a particular threshold
 
+Details:
 - The input current Iin is integrated using capacitor Cmem. 
 - The high gain non-inverting amplifier is implemented using back-to-back CMOS inverters(Q3, Q4, Q5, Q6). 
 - The feedback network is implemented using capacitors Cfb and Cmem. 
