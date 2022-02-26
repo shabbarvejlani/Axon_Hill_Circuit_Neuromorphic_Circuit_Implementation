@@ -1,4 +1,4 @@
-# Axon_Hill_Circuit_Neuromorphic_Circuit_Implementation
+# Axon_HillLock_Circuit_Neuromorphic_Circuit_Implementation
 
 ## Table of Contents
 1. [Introduction](#introduction)
