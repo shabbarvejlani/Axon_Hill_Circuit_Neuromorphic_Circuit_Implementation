@@ -25,12 +25,12 @@
 ## Reference Circuit
 
 <p align="center">
-	<img width="600" src="images/ref_ICG_sch.png" alt=""> 
+	<img width="600" src="images/reference_schematic" alt=""> 
 	<h5 align="center">Figure 2: Axon HillCircuit Reference Schematic</h5>
 </p>
 
 <p align="center">
-	<img width="1500" src="" alt=""> 
+	<img width="1500" src="images/reference_waveform" alt=""> 
 	<h5 align="center">Figure 3: Axon Hill Reference Waveform</h5>
 	</p>
 
@@ -113,7 +113,8 @@ RR7 net12 gnd! 10meg $[RP]
 
 
 ## References
-
+[1]	Chapter 12, “Axons” from text “Analog VLSI and Neural Systems”, Mead Carver.
+[2]	Giacomo Indiveri et al “Neuromorphic silicon neuron circuits”, Fronetiers in Neuroscience Online Journal.
 
 ## Acknowledgements
 - [Indian Institute Of Technology (IIT), Hyderabad](https://iith.ac.in/)
