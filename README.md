@@ -25,30 +25,25 @@
 ## Reference Circuit
 
 <p align="center">
-	<img width="600" src="Images/ref_ICG_sch.png" alt="refference ICG Schematic"> 
-	<h5 align="center">Figure 2: Gate level schematic</h5>
+	<img width="600" src="images/ref_ICG_sch.png" alt=""> 
+	<h5 align="center">Figure 2: Axon HillCircuit Reference Schematic</h5>
 </p>
 
 <p align="center">
-	<img width="1500" src="Images/ref_ICG_trans.png" alt="refference ICG Trans"> 
-	<h5 align="center">Figure 3: Transistor level schematic</h5>
+	<img width="1500" src="" alt=""> 
+	<h5 align="center">Figure 3: Axon Hill Reference Waveform</h5>
 	</p>
 
 ## Implementation
 - The MOSFET model chosen is TT model from 28nm PDK.
 
 <p align="center">
-	<img width="1500" src="Images/ICG.png" alt="Integrated Clock Gating schematic"> 
-	<h5 align="center">Figure 4: Integrated Clock Gating schematic</h5>
-	<img width="1500" src="Images/ICG_tb.png" alt="Integrated Clock Gating Testbench"> 
-	<h5 align="center">Figure 5: Integrated Clock Gating Testbench</h5>
-	<img width="1500" src="Images/AND.png" alt="And gate schematic"> 
-	<h5 align="center">Figure 6: AND gate schematic</h5>
-	<img width="1500" src="Images/Inverter.png" alt="Inverter schematic"> 
-	<h5 align="center">Figure 7: Inverter schematic</h5>
-	<img width="1500" src="Images/TG.png" alt="Transmission gate schematic"> 
-	<h5 align="center">Figure 8: Transmission gate schematic</h5>
-	</p>
+	<img width="1500" src="images/schematic_axon_hill_circuit.png" alt=""> 
+	<h5 align="center">Figure 4: Axon Hillock Circuit Implementation Schematic</h5>
+	<img width="1500" src="images/sim_schematic_axon_hill_circuit.png" alt=""> 
+	<h5 align="center">Figure 5: Axon Hillock Circuit Simulation Schematic</h5>
+	<img width="1500" src="images/simulation_setup_axon_hill_circuit.png" alt=""> 
+	<h5 align="center">Figure 6: Simulation Setup Axon Hillock Circuit.png</h5>
 
 ## Schematic Netlist
 
@@ -117,6 +112,7 @@ RR7 net12 gnd! 10meg $[RP]
 
 ## Acknowledgements
 - [Indian Institute Of Technology (IIT), Hyderabad](https://iith.ac.in/)
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
 - [Synopsys](https://www.synopsys.com/)
 
 ## Author
