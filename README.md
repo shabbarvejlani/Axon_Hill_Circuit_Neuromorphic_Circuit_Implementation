@@ -25,12 +25,12 @@
 ## Reference Circuit
 
 <p align="center">
-	<img width="600" src="images/reference_schematic" alt=""> 
+	<img width="600" src="images/reference_schematic.jpg" alt=""> 
 	<h5 align="center">Figure 2: Axon HillCircuit Reference Schematic</h5>
 </p>
 
 <p align="center">
-	<img width="1500" src="images/reference_waveform" alt=""> 
+	<img width="1500" src="images/reference_waveform.jpg" alt=""> 
 	<h5 align="center">Figure 3: Axon Hill Reference Waveform</h5>
 	</p>
 
