@@ -20,9 +20,9 @@ Neuromorphic Circuits are a biologically inspired way of implementing computatio
 ## Working
 
 The Axon Hillock is a portion of the neuron which mimics the Spike/Event Generation within the neuron after receiving weighted sum inputs from the soma. The reference circuit (Figure 1, Ref[1]) models the spike generation using the  integrate and fire model. This is implemented by using :
-a.	A capacitor integrating an input current 
-b.	A high gain non-inverting amplifier in positive feedback configuration
-c.	An auxiliary circuit which helps in the pulse generation whenever the integrator reaches a particular threshold
+1. A capacitor integrating an input current 
+2. A high gain non-inverting amplifier in positive feedback configuration
+3. An auxiliary circuit which helps in the pulse generation whenever the integrator reaches a particular threshold
 
 - The input current Iin is integrated using capacitor Cmem. 
 - The high gain non-inverting amplifier is implemented using back-to-back CMOS inverters(Q3, Q4, Q5, Q6). 
