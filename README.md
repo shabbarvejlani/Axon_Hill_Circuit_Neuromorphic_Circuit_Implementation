@@ -15,11 +15,19 @@
 
 ## Introduction
 
-
+Neuromorphic Circuits are a biologically inspired way of implementing computation using analog circuits. They offer low power advantage for applications like machine learning inference on the edge devices. The biological neuron consists of various parts like dendrite, soma and axon which receive electrical pulses from various sensory organs and transmit and process information in the form of electrical pulses.  The analog equivalent neuron consists of various computational building blocks  like temporal integration block, spike/event generation block, refractory period block, spike-frequency adaptation block and spiking threshold adaption block. This paper implements the spike/event generation block using the axon-hillock circuit in 130nm CMOS technology. The axon-hillock circuit uses integrate and fire model for spike generation. The input comes in the form of current which is integrated and when it reaches a threshold, a pulse is emitted from the neuron.
 
 ## Working
 
+The Axon Hillock is a portion of the neuron which mimics the Spike/Event Generation within the neuron after receiving weighted sum inputs from the soma. The reference circuit (Figure 1, Ref[1]) models the spike generation using the  integrate and fire model. This is implemented by using :
+a.	A capacitor integrating an input current 
+b.	A high gain non-inverting amplifier in positive feedback configuration
+c.	An auxiliary circuit which helps in the pulse generation whenever the integrator reaches a particular threshold
 
+- The input current Iin is integrated using capacitor Cmem. 
+- The high gain non-inverting amplifier is implemented using back-to-back CMOS inverters(Q3, Q4, Q5, Q6). 
+- The feedback network is implemented using capacitors Cfb and Cmem. 
+- The auxillary circuit uses cascaded NMOS pair(Q1 and Q2), where the lower transistor gate voltage (Vb) provides a control on the rate of discharge, thus also determining the output pulse width(tH).
 
 
 ## Reference Circuit
