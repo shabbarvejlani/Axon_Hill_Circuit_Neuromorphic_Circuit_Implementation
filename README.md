@@ -1,4 +1,4 @@
-# Axon_HillLock_Circuit_Neuromorphic_Circuit_Implementation
+# Axon HillLock Neuromorphic Circuit Implementation
 
 ## Table of Contents
 1. [Introduction](#introduction)
