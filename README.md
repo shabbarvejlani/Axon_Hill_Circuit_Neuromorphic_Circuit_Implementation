@@ -97,9 +97,14 @@ RR7 net12 gnd! 10meg $[RP]
 
 ### Transient Analysis:
 <p align="center">
-	<img width="1100" src="Images/Waveform.png" alt="refference ICG Trans"> 
-	<h5 align="center">Figure 9: Waveform</h5>
-</p>.
+<img width="1100" src="images/simulation_waveform.png" alt=""> 
+<h5 align="center">Figure 9: Transient Waveform (Zoom In)</h5>
+</p>
+
+<p align="center">
+<img width="1100" src="images/simulation_waveform_more_cycles.png" alt=""> 
+<h5 align="center">Figure 9: Transient Waveform (Zoom Out)</h5>
+</p>
 
 ## Challenge
 
