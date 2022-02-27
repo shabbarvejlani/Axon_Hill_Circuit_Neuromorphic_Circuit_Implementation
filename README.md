@@ -1,5 +1,5 @@
 # Axon HillLock Neuromorphic Circuit Implementation
-Following is submitted as part of final report of [Analog IC Design Hackathon](https://hackathoniith.in/) organized by IIT Hyderabad.
+Following is submitted as part of final report of [Analog IC Design Hackathon-2022](https://hackathoniith.in/) organized by IIT Hyderabad.
 
 ## Table of Contents
 1. [Introduction](#introduction)
