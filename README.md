@@ -1,4 +1,5 @@
 # Axon HillLock Neuromorphic Circuit Implementation
+Following is submitted as part of final report of [Analog IC Design Hackathon](https://hackathoniith.in/) organized by IIT Hyderabad.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -35,12 +36,12 @@ Details:
 
 <p align="center">
 	<img width="600" src="images/reference_schematic.jpg" alt=""> 
-	<h5 align="center">Figure 2: Axon HillCircuit Reference Schematic</h5>
+	<h5 align="center">Figure 1: Axon HillCircuit Reference Schematic</h5>
 </p>
 
 <p align="center">
 	<img width="1500" src="images/reference_waveform.jpg" alt=""> 
-	<h5 align="center">Figure 3: Axon Hill Reference Waveform</h5>
+	<h5 align="center">Figure 2: Axon Hill Reference Waveform</h5>
 	</p>
 
 ## Implementation
@@ -48,11 +49,11 @@ Details:
 
 <p align="center">
 	<img width="1500" src="images/schematic_axon_hill_circuit.png" alt=""> 
-	<h5 align="center">Figure 4: Axon Hillock Circuit Implementation Schematic</h5>
+	<h5 align="center">Figure 3: Axon Hillock Circuit Implementation Schematic</h5>
 	<img width="1500" src="images/sim_schematic_axon_hill_circuit.png" alt=""> 
-	<h5 align="center">Figure 5: Axon Hillock Circuit Simulation Schematic</h5>
+	<h5 align="center">Figure 4: Axon Hillock Circuit Simulation Schematic</h5>
 	<img width="1500" src="images/simulation_setup_axon_hill_circuit.png" alt=""> 
-	<h5 align="center">Figure 6: Simulation Setup Axon Hillock Circuit.png</h5>
+	<h5 align="center">Figure 5: Simulation Setup Axon Hillock Circuit.png</h5>
 
 ## Schematic Netlist
 
@@ -107,19 +108,33 @@ RR7 net12 gnd! 10meg $[RP]
 ### Transient Analysis:
 <p align="center">
 <img width="1100" src="images/simulation_waveform.png" alt=""> 
-<h5 align="center">Figure 9: Transient Waveform (Zoom In)</h5>
+<h5 align="center">Figure 6: Transient Waveform (Zoom In)</h5>
 </p>
 
 <p align="center">
 <img width="1100" src="images/simulation_waveform_more_cycles.png" alt=""> 
-<h5 align="center">Figure 9: Transient Waveform (Zoom Out)</h5>
+<h5 align="center">Figure 7: Transient Waveform (Zoom Out)</h5>
 </p>
 
-## Challenge
+### Parametric Sweep Analysis
+Parameteric Sweep of Vb is done to confirm the pulse width control using Vb.
+Vb is swept from 0.35 to 0.55 in steps of 0.05.
+
+<p align="center">
+<img width="1100" src="images/parametric_sim_setup.PNG" alt=""> 
+<h5 align="center">Figure 8: Parameteric Sim Setup</h5>
+</p>
+
+<p align="center">
+<img width="1100" src="images/pulse_width_control_1.png" alt=""> 
+<h5 align="center">Figure 9: Parmeteric Sim Waveform for Vout (Vb swept from 0.35 to 0.55)</h5>
+</p>
 
 
-## Limitations
-
+### Observations:
+- If Vb increases, the pulse width decreases.
+- The Vb vs Pulse width relationship is non-linear
+- For faster response, instead of CMOS inverter based Amplifier, differential amplifer based amplifer could be used.
 
 ## References
 1. Chapter 12, “Axons” from text “Analog VLSI and Neural Systems”, Mead Carver.
