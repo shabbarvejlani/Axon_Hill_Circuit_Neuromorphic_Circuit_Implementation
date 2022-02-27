@@ -126,7 +126,7 @@ Vb is swept from 0.35 to 0.55 in steps of 0.05.
 </p>
 
 <p align="center">
-<img width="1100" src="images/Vb_parametric_sweep.png" alt=""> 
+<img width="1100" src="images/Vb_paramertic_sweep.PNG" alt=""> 
 <h5 align="center">Figure 9: Parmeteric Sim Waveform for Vout (Vb swept from 0.35 to 0.55)</h5>
 </p>
 
