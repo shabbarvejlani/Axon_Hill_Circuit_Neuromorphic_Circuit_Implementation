@@ -132,7 +132,9 @@ Vb is swept from 0.35 to 0.55 in steps of 0.05.
 
 
 ### Observations:
-- If Vb increases, the pulse width decreases.
+- For constant input current, the integrate and fire behavior of axon hillock circuit is observed as per expectation.
+- The waveforms for the Vout and Vmem are in alignment to the references.
+- Vb provided control for pulse width. As Vb increases, the pulse width decreases.
 - The Vb vs Pulse width relationship is non-linear
 - For faster response, instead of CMOS inverter based Amplifier, differential amplifer based amplifer could be used.
 
